@@ -1,6 +1,6 @@
 class Order:
     def __init__(self):
-        self.items = []  # 每个 item: dict 包含 name, price, qty
+        self.items = []  
 
     def add_item(self, item, quantity):
         self.items.append({
