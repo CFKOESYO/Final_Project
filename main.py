@@ -25,7 +25,7 @@ def main():
                     print("Quantity must be at least 1.")
                     continue
             except ValueError:
-                print("Please enter a valid quantity number.")5
+                print("Please enter a valid quantity number.")
                 
                 continue
 
